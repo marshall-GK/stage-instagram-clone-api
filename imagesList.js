@@ -3,7 +3,7 @@ const userStory = () => ({
     {
       id: "1s1",
       storyUrl: "https://picsum.photos/id/115/640/480",
-      timer: 4800,
+      timer: 6000,
     },
   ],
   2: [
@@ -29,7 +29,7 @@ const userStory = () => ({
     {
       id: "4s1",
       storyUrl: "https://picsum.photos/id/116/640/480",
-      timer: 1000,
+      timer: 10000,
     },
     {
       id: "4s2",
@@ -41,17 +41,17 @@ const userStory = () => ({
     {
       id: "5s1",
       storyUrl: "https://picsum.photos/id/121/640/480",
-      timer: 1000,
+      timer: 5000,
     },
     {
       id: "5s2",
       storyUrl: "https://picsum.photos/id/120/640/480",
-      timer: 4800,
+      timer: 8000,
     },
     {
       id: "5s3",
       storyUrl: "https://picsum.photos/id/122/640/480",
-      timer: 4800,
+      timer: 5000,
     },
   ],
 });
