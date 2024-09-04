@@ -1,7 +1,7 @@
 const userStory = () => ({
-  1: [
+  6: [
     {
-      id: "1s1",
+      id: "6s1",
       storyUrl: "https://picsum.photos/id/115/640/480",
       timer: 6000,
     },
