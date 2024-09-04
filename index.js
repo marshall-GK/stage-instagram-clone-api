@@ -4,6 +4,8 @@ const userStory = require("./imagesList");
 const userStoryAvatarList = require("./userStoryList");
 const app = express();
 
+const PORT = process.env.PORT || 5000;
+
 app.use(cors({
   origin: '*',
 }));
@@ -18,6 +20,6 @@ app.get("/userStory", (req, res) => {
   res.json(data);
 });
 
-app.listen(4000, () => {
-  console.log("Listening to port 4000");
+app.listen(PORT, () => {
+  console.log(`Listening to port ${PORT}`);
 });
