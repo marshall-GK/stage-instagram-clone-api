@@ -17,7 +17,7 @@ app.get("/userStoryList", (req, res) => {
 
 app.get("/userStory", (req, res) => {
   if(req?.query?.id) {
-    const data = userStory.userStory()?.[res.query.id];
+    const data = userStory.userStory()?.[req.query.id];
     if(data && data?.length) {
       res.status(200).json(data);
     } else {
