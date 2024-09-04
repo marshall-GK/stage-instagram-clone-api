@@ -2,32 +2,41 @@ const userStory = () => ({
   1: [
     {
       id: "1s1",
-      s1: "/images/story2.jpg",
+      storyUrl: "https://picsum.photos/id/115/200/300",
       timer: 3000,
     },
   ],
   2: [
     {
       id: "2s1",
-      s1: "/images/story3.jpg",
+      storyUrl: "https://picsum.photos/id/113/200/300",
       timer: 8000,
     },
   ],
   3: [
     {
       id: "3s1",
-      storyUrl: "/images/story5.jpg",
+      storyUrl: "https://picsum.photos/id/870/200/300?grayscale&blur=2",
       timer: 5000,
     },
-    { id: "3s2", storyUrl: "/images/story1.jpg", timer: 7000 },
+    { id: "3s2", storyUrl: "https://picsum.photos/id/112/200/300", timer: 7000 },
   ],
   4: [
     {
       id: "4s1",
-      storyUrl: "/images/story3.jpg",
-      timer: 5000,
+      storyUrl: "https://picsum.photos/id/116/200/300",
+      timer: 1000,
     },
-    { id: "4s2", storyUrl: "/images/story2.jpg", timer: 7000 },
+    { id: "4s2", storyUrl: "https://picsum.photos/id/117/200/300", timer: 3000 },
+  ],
+  5: [
+    {
+      id: "5s1",
+      storyUrl: "https://picsum.photos/id/121/200/300",
+      timer: 1000,
+    },
+    { id: "5s2", storyUrl: "https://picsum.photos/id/120/200/300", timer: 3000 },
+    { id: "5s3", storyUrl: "https://picsum.photos/id/122/200/300", timer: 3000 },
   ],
 });
 
