@@ -1,7 +1,12 @@
 const express = require("express");
+const cors = require('cors');
 const userStory = require("./imagesList");
 const userStoryAvatarList = require("./userStoryList");
 const app = express();
+
+app.use(cors({
+  origin: '*',
+}));
 
 app.get("/userStoryList", (req, res) => {
   const data = userStoryAvatarList.statusCarousel();
